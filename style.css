@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Brooklyn;
+    src: url("Brooklyn-Normal.otf");
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Brooklyn';
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  h5{
+      font-size: 16px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    z-index: 9;
+  }
+  
+  .menu-links ul li {
+    display: inline-block;
+    padding-right: 40px;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+  
+  .menu-links ul li a, .search a, .menu a{
+    text-decoration: none;
+    color: #382A24;
+  }
+  
+  .social {
+    font-size: 20px;
+  }
+  
+  .social i{
+    padding-right: 50px;
+    font-size: 14px;
+  }
+  
+  .social a{
+    text-decoration: none;
+    color: #382A24;
+  }
+
+  .intro{
+      position: initial;
+      width: 100%;
+      height: 70vh;
+      display: flex;
+  }
+
+  .intro-image{
+      width: auto;
+      height: 100%;
+      float: left;
+      left: 0;
+      margin-top: 50px;
+  }
+
+  .intro-title{
+    height: 300px;
+    width: 30%;
+    max-height: 100%;
+    font-size: 4em;
+    float: left;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  .intro-title strong{
+      color: lightsalmon;
+  }
+
+  .intro-logo{
+      transform: rotate(90deg);
+      position: absolute;
+      float: right;
+      right: 50px;
+      top: 200px;
+  }
+
+  .footer{
+    position: initial;
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(255, 160, 122, 0.1);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .more-info{
+      width: 20%;
+      height: auto;
+      padding: 50px 100px;
+  }
+
+  .more-button{
+    float: left;
+    margin-left: 42%;
+  }
+
+  .more-button a{
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    bottom: 0;
+  }
+  
+  .more-button a:hover{
+    background-color: rgb(54, 52, 52);
+  }
+
+  .address{
+    padding-top: 50px;
+  }
+
+  .phone{
+    padding-top: 50px;
+  }
+
+
+  .section-one{
+    width: 100%;
+    padding: 50px 50px;
+    display: inline-flex;
+  }
+  
+
+
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .intro-title{
+    font-size: 1em;
+    margin-top: -100px;
+    margin-left: 10px;
+  }
+
+  .more-info{
+      width: 100%;
+      height: auto;
+      padding: 50px 100px;
+  }
+
+  .address{
+    display: none;
+  }
+
+  .phone{
+    display: none;
+  }
+  
+  .search{
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .nav {
+    padding-top: 6%;
+    padding-bottom: 2%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+  .intro-title{
+    position: absolute;
+    float: right;
+    right: 0;
+  }
+  .more-button{
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .intro-title{
+    font-size: 2em;
+    padding-top: 300px;
+  }
+}
